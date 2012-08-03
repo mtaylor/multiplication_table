@@ -34,8 +34,6 @@ class MultiplicationTable
     cell_width = 5 + (table.last.last.to_s.length)
     row_width = cell_width * (@row_values.length + 1)
 
-    table = calculate_table
-
     # Print the first cell
     print_cell("x |", cell_width)
 
