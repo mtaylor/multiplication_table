@@ -6,6 +6,6 @@ Gem::Specification.new do |s|
   s.description = "Simple program to calculate multiplications of two number arrays"
   s.authors     = ["Martyn Taylor"]
   s.email       = 'markyblueuk@hotmail.com'
-  s.files       = ["lib/multiplication_table.rb"]
+  s.files        = Dir.glob("{bin,lib}/**/*")
   s.homepage    = 'http://www.placeholder.pl/multiplication_table'
 end

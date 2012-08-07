@@ -2,6 +2,6 @@
 
 require 'multiplication_table'
 
-primes = [2, 3,	5, 7, 11, 13, 17, 19, 23, 29]
+primes = PrimeNumber.calculate_primes(10)
 
 MultiplicationTable.new(primes,primes).print
